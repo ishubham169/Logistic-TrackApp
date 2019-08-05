@@ -1,0 +1,12 @@
+from dataclasses import dataclass
+class a():
+    def __init__(self,num):
+        print("Class a",num)
+
+class b(a):
+    def __init__(self,num):
+        print("Class b",num)
+        A.__init__(self,num-1)
+
+obj = b(10)
+
