@@ -8,5 +8,9 @@ class b(a):
         print("Class b",num)
         A.__init__(self,num-1)
 
-obj = b(10)
+if True:
+   obj = b(10)
+print("hello")
+print("shubham")
+
 
