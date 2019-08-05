@@ -10,4 +10,6 @@ class b(a):
 
 if True:
    obj = b(10)
+print("hello")
+print("shubham")
 
